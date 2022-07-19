@@ -1,0 +1,168 @@
+body {
+  text-decoration: none;
+  background-color: #f2f4fc;
+
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Roboto";
+}
+h1 {
+  font-size: 60px;
+  font-weight: Bold;
+  margin-top: 0px;
+  color: #292e47;
+}
+h2 {
+  font-size: 50px;
+  font-weight: Bold;
+  color: #292e47;
+}
+h3 {
+  font-size: 40px;
+  font-weight: Bold;
+}
+h4 {
+  font-size: 24px;
+  font-weight: Bold;
+}
+.bodyText {
+  font-size: 20px;
+  color: #6b708d;
+  width: 85%;
+}
+.headlinetext {
+  font-size: 17px;
+  font-weight: bold;
+  color: #6b708d;
+}
+
+header {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+  width: 85%;
+  margin-bottom: 100px;
+}
+
+.contact-us-button {
+  /* background-color: red; */
+
+  text-decoration: none;
+  background-color: #072ac8;
+  font-size: 17px;
+  /* font-weight: bold; */
+  padding: 15px 30px;
+  color: white;
+}
+nav .active {
+  color: #368df3;
+}
+
+nav a {
+  text-decoration: none;
+  color: #6b708d;
+  padding: 20px;
+}
+.logo a {
+  text-decoration: none;
+  color: #072acb;
+  font-size: 17px;
+  font-weight: 500;
+}
+.hero {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  margin-bottom: 10%;
+}
+.hero-text {
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 5%;
+}
+.text-button {
+  text-decoration: none;
+  color: #6b708d;
+  padding: 20px;
+  font-weight: bold;
+  padding-left: 0px;
+}
+
+.hero-buttons {
+  margin-top: 12%;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 560px;
+}
+.hero-img {
+  /* border: 3px solid red; */
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.companies {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+/* .hero-card2 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: -5%;
+  bottom: -2%;
+  max-width: 375px;
+} */
+
+.hero-card2 img {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 10%;
+  max-width: 375px;
+  width: 290px;
+}
+
+.hero-card1 img {
+  position: absolute;
+  left: 45%;
+  top: 22%;
+  right: auto;
+  bottom: auto;
+  max-width: 375px;
+  width: 294px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 85%;
+}
+.projects h2 {
+  border: 2px solid red;
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: white;
+}
